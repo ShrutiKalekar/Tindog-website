@@ -1,0 +1,165 @@
+#title{
+    background-color: #AC7088;
+    color: #F5E8C7;
+    text-align: left;
+}
+
+body{
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+p{
+    color: #3D3C42;
+}
+
+.heading{
+    margin: 70px 70px 70px 0px;
+}
+
+.container-fluid{
+    background-color: #AC7088;
+    padding-left: 10%;
+}
+
+.navbar{
+    padding: 3% 0% 3% 0%;
+} 
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    margin-left: 52%;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    color: #F5E8C7;
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.btn-dark{
+    background-color: #F5E8C7;
+    color: #3D3C42;
+}
+
+.btn-outline-light:hover{
+    color: #3D3C42;
+}
+
+.title-image{
+    width: 55%;
+    transform: rotate(25deg)
+}
+
+#features{
+    padding: 7% 10%;
+}
+
+.feature-box{
+    padding: 5% 1%;
+}
+
+.icon{
+    color: #DEB6AB;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #AC7088;
+}
+
+#testimonials{
+    color: #F5E8C7;
+    background-color: #AC7088;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    margin-right: 50%;
+    margin-left: 45%;
+}
+
+#press{
+    background-color: #AC7088;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 15px 15px 20px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #AC7088;
+    color: #F5E8C7;
+    padding: 6% 2%;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.cta-btn{
+    margin: 2% 1% 1% 1%;
+}
+
+#footer{
+    padding: 4%;
+}
+
+.icons{
+    margin: 20px 10px;
+}
